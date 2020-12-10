@@ -6,6 +6,7 @@
 #menuknap {
     display: inline-block;
     cursor: pointer;
+    color: #F28705
 }
 
 
@@ -34,8 +35,14 @@
     }
 }
 
-h2,
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vw;
+    padding: 2vw;
+}
+
 h3 {
     font-family: 'Bebas Neue', cursive;
-
+    font-size: 5vw;
+    padding: 2vw;
 }
