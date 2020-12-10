@@ -59,9 +59,9 @@ button {
     border: none;
     padding: 5px 15px 5px 15px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     cursor: pointer;
-    margin-top: 1vw;
+    margin: 0vw 0vw 3vw 0vw;
     border-bottom: 1px;
 }
 
@@ -74,7 +74,21 @@ button {
 #tider_sondag {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 1px 0;
+    margin-bottom: 3vw;
+    margin-top: 1.5vw;
+}
+
+#tider_mandag p,
+#tider_tirdag p,
+#tider_onsdag p,
+#tider_torsdag p,
+#tider_fredag p,
+#tider_lordag p,
+#tider_sondag p {
+    border-bottom: 1px solid #939191;
+    margin: 0 0 3vw 0;
+    padding-left: 1.5vw;
+
 }
 
 
