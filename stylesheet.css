@@ -5,7 +5,10 @@
 
 #menuknap {
     display: inline-block;
+    cursor: pointer;
 }
+
+
 
 #menu {
     list-style-type: none;
@@ -13,9 +16,12 @@
     transform-origin: top left;
 }
 
+
+
 @media (min-width: 600px) {
     #menuknap {
         display: none;
+
     }
 
     #menu.hidden {
@@ -26,4 +32,10 @@
     #menu li {
         display: inline-block;
     }
+}
+
+h2,
+h3 {
+    font-family: 'Bebas Neue', cursive;
+
 }
