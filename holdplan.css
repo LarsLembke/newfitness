@@ -87,7 +87,7 @@ button {
 #dropdown7 {
     background-image: url(images/dropdown_ui.svg);
     background-size: cover;
-    height: 2.2vw;
-    width: 4vw;
-    margin-top: 1vw;
+    height: 3.3vw;
+    width: 6vw;
+    margin: 3.5vw;
 }
