@@ -7,23 +7,98 @@
     <title>New Fitness</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="forside.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="">COVID-19</a>
-            <a href="">TILMELD</a>
-            <a href="holdplan.html">HOLDPLAN</a>
-            <a href="">PRISER/TIDER</a>
-            <a href="omos.html">OM OS</a>
-            <a href="kontakt.html">KONTAKT</a>
-            <a href="styletile.html">STYLE TILE</a>
+            <div id="menuknap"> ☰ </div>
+            <ul id="menu" class="hidden">
+                <li> <a href="index.html"> Forside</a></li>
+                <li> <a href="holdplan.html"> Holdplan</a></li>
+                <li> <a href="omos.html"> Om os</a></li>
+                <li> <a href="kontakt.html"> Kontakt</a></li>
+            </ul>
         </nav>
     </header>
     <main>
+        <section id="splash">
+
+            <div>
+                <video id="forsidevideo" poster="poster.JPG" autoplay muted loop>
+                    <source src="forsidevideo.mp4" type="video/mp4">
+                </video>
+                <button id="tilmeldnu"> Tilmeld nu
+                </button>
+            </div>
+
+        </section>
+        <section id="corona">
+            <div>
+                <div>
+                    <h2> Covid-19 retningslinjer</h2>
+                    <!--Billede hentet fra freepik.com-->
+                    <img src="coronasection.jpg" alt="corona">
+                </div>
+                <div>
+                    <h3> Nye tiltag og retningslinjer</h3>
+                    <p id="coronatekst"> Her kan du læse mere om vores tiltag og myndighedernes retningslinjer for området. Siden bliver løbende opdateret. <br> <br>
+
+                        Læs mere om, hvordan vi sammen kan skabe gode træningsvaner under trygge rammer. Husk at spritte af, holde afstand og vise hensyn. <br> <br>
+
+                        Find de seneste opdateringer og se hvilke forholdsregler der er taget, så du sikkert og trygt kan træne hos os.</p>
+                </div>
+                <button id="readmore"> Læs mere</button>
+            </div>
+        </section>
+        <section id="diasshow">
+            <div>
+                <h2> Vi gør din træning enklere</h2>
+                <div class="image-container">
+                    <figure>
+                        <img src="vaegtstang1.jpg" alt="billede 1">
+                    </figure>
+                    <figure>
+                        <img src="vaegte.jpg" alt="billede 2">
+                    </figure>
+                    <figure>
+                        <img src="haand.jpg" alt="billede 3">
+                    </figure>
+                    <figure>
+                        <img src="reb.jpg" alt="billede 4">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="mereomos">
+            <div>
+                <h2> Mere om os</h2>
+                <p id=mereomostekst> Klik nedenfor og læs mere om hvad vi står for</p>
+
+                <img src="forsidemereomos.jpg" alt="mere om os">
+            </div>
+        </section>
+        <section id="komigang">
+            <div>
+                <div>
+                    <h2> Kom igang med det samme</h2>
+                </div>
+                <div>
+                    <img src="komigang.svg" alt="kom igang" id="komigang_img">
+                </div>
+                <div>
+                    <button id="tilmeld"> Tilmeld</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
+
     </footer>
     <script src="script.js"></script>
 </body></html>

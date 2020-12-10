@@ -1,3 +1,48 @@
-.body {
-    background-color: aqua;
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+#menuknap {
+    display: inline-block;
+    cursor: pointer;
+    color: #F28705
+}
+
+
+
+#menu {
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+}
+
+
+
+@media (min-width: 600px) {
+    #menuknap {
+        display: none;
+
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vw;
+    padding: 2vw;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    padding: 2vw;
 }

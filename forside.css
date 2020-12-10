@@ -1,3 +1,111 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* Globale styles */
 body {
-    background-color: #F4F2F2;
+    background: #ececec;
+}
+
+#forsidevideo {
+    width: 100%;
+    height: auto;
+}
+
+#tilmeldnu {
+    background-color: #F28705;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vw;
+    margin-left: 40vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    cursor: pointer;
+}
+
+#corona {
+    margin-top: 10vw;
+    text-align: center;
+}
+
+#coronatekst {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+}
+
+#readmore {
+    background-color: #F28705;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+    margin-bottom: 5vw;
+    cursor: pointer;
+}
+
+#diasshow {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+.image-container figure {
+    flex-grow: 1;
+    flex-basis: 90%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+
+.image-container img {
+    margin-right: 20px;
+}
+
+#mereomos {
+    text-align: center;
+    margin-bottom: 5vw;
+
+}
+
+#mereomostekst {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3vw;
+}
+
+#komigang {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#komigang_img {
+    position: relative;
+    z-index: -1;
+    left: 0;
+}
+
+#tilmeld {
+    background-color: #F28705;
+    color: white;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+    cursor: pointer;
 }
