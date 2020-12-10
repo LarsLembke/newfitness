@@ -4,8 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Holdplan</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="holdplan.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,25 +28,28 @@
     </header>
     <main>
         <h1>HOLDPLAN</h1>
-        <img src="holdplan1.jpg" alt="Træningslokale">
+        <img src="images/holdplan1.jpg" alt="Træningslokale">
         <section id="hold">
             <h2>Træning behøves ikke at være solo</h2>
-            <p>Hos New Fitness Tilbyder vi udvalgte hold som du kan tilmelde dig alle ugens dage. <br>Her kan du se hvilke hold vi tilbyder hvilke dage og let tilmelde dig.</p>
+            <p>Hos New Fitness tilbyder vi udvalgte hold som du kan tilmelde dig alle ugens dage. <br>Her kan du se hvilke hold vi tilbyder hvilke dage og let tilmelde dig.</p>
         </section>
         <section id="holdplan">
             <div id="mandag">
                 <div class="day">
-                    <p>Mandag</p>
+                    <h3>Mandag</h3>
+                    <div id="dropdown1"></div>
                 </div>
-                <div id="tider_mandag"></div>
-                <p>17:00 - 18:00</p>
-                <p>Cirkeltræning - Udendørs</p>
-                <p>Ulrikke</p>
-                <button>Tilmeld hold</button>
+                <div id="tider_mandag">
+                    <p>17:00 - 18:00</p>
+                    <p>Cirkeltræning - Udendørs</p>
+                    <p>Ulrikke</p>
+                    <button>Tilmeld hold</button>
+                </div>
             </div>
             <div id="tirdag">
                 <div class="day">
-                    <p>Tirsdag</p>
+                    <h3>Tirsdag</h3>
+                    <div id="dropdown2"></div>
                 </div>
                 <div id="tider_tirdag">
                     <p>06:30 - 07:30</p>
@@ -55,66 +64,74 @@
             </div>
             <div id="onsdag">
                 <div class="day">
-                    <p>Onsdag</p>
+                    <h3>Onsdag</h3>
+                    <div id="dropdown3"></div>
                 </div>
-                <div id="tider_onsdag"></div>
-                <p>09:00 - 10:00</p>
-                <p>Senior - Udendørs</p>
-                <p>Steffen</p>
-                <button>Tilmeld hold</button>
-                <p>17:00 - 18:00</p>
-                <p>Step - Udendørs/Fitness</p>
-                <p>Melina</p>
-                <button>Tilmeld hold</button>
-                <p>17:30 - 18:30</p>
-                <p>Yoga - Udendørs</p>
-                <p>Lejka</p>
-                <button>Tilmeld hold</button>
+                <div id="tider_onsdag">
+                    <p>09:00 - 10:00</p>
+                    <p>Senior - Udendørs</p>
+                    <p>Steffen</p>
+                    <button>Tilmeld hold</button>
+                    <p>17:00 - 18:00</p>
+                    <p>Step - Udendørs/Fitness</p>
+                    <p>Melina</p>
+                    <button>Tilmeld hold</button>
+                    <p>17:30 - 18:30</p>
+                    <p>Yoga - Udendørs</p>
+                    <p>Lejka</p>
+                    <button>Tilmeld hold</button>
+                </div>
             </div>
             <div id="torsdag">
                 <div class="day">
-                    <p>Torsdag</p>
+                    <h3>Torsdag</h3>
+                    <div id="dropdown4"></div>
                 </div>
-                <div id="tider_torsdag"></div>
-                <p>17:00 - 18:00</p>
-                <p>Cirkeltræning - Udendørs</p>
-                <p>Ulrikke</p>
-                <button>Tilmeld hold</button>
+                <div id="tider_torsdag">
+                    <p>17:00 - 18:00</p>
+                    <p>Cirkeltræning - Udendørs</p>
+                    <p>Ulrikke</p>
+                    <button>Tilmeld hold</button>
+                </div>
             </div>
             <div id="fredag">
                 <div class="day">
-                    <p>Fredag</p>
+                    <h3>Fredag</h3>
+                    <div id="dropdown5"></div>
                 </div>
-                <div id="tider_fredag"></div>
-                <p>09:00 - 10:00</p>
-                <p>Senior - Udendørs</p>
-                <p>Steffen</p>
-                <button>Tilmeld hold</button>
+                <div id="tider_fredag">
+                    <p>09:00 - 10:00</p>
+                    <p>Senior - Udendørs</p>
+                    <p>Steffen</p>
+                    <button>Tilmeld hold</button>
+                </div>
             </div>
             <div id="lordag">
                 <div class="day">
-                    <p>Lørdag</p>
+                    <h3>Lørdag</h3>
+                    <div id="dropdown6"></div>
                 </div>
-                <div id="tider_lordag"></div>
-                <p>09:00 - 10:00</p>
-                <p>Cirkeltræning - Udendørs</p>
-                <p>Jacqueline</p>
-                <button>Tilmeld hold</button>
+                <div id="tider_lordag">
+                    <p>09:00 - 10:00</p>
+                    <p>Cirkeltræning - Udendørs</p>
+                    <p>Jacqueline</p>
+                    <button>Tilmeld hold</button>
+                </div>
             </div>
             <div id="sondag">
                 <div class="day">
-                    <p>Søndag</p>
+                    <h3>Søndag</h3>
+                    <div id="dropdown7"></div>
                 </div>
-                <div id="tider_sondag"></div>
-                <p>17:00 - 18:00</p>
-                <p>Cirkeltræning - Udendørs</p>
-                <p>Ulrikke</p>
-                <button>Tilmeld hold</button>
+                <div id="tider_sondag">
+                    <p>17:00 - 18:00</p>
+                    <p>Cirkeltræning - Udendørs</p>
+                    <p>Ulrikke</p>
+                    <button>Tilmeld hold</button>
+                </div>
             </div>
         </section>
     </main>
     <footer></footer>
     <script src="script.js"></script>
-</body>
-
-</html>
+</body></html>
