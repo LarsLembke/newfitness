@@ -3,19 +3,18 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
 
-    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
-}
+    document.querySelector(".burger").addEventListener("click", toggleMenu);
+
+};
 
 function toggleMenu() {
     console.log("toggleMenu");
+    const nav = document.querySelector('.nav-links');
 
-    document.querySelector("#menu").classList.toggle("hidden");
+    nav.classList.toggle('nav-active');
 
-    let = erSkjult = document.querySelector("#menu").classList.contains("hidden");
+    let = erSkjult = nav.classList.contains('nav-active');
 
-    if (erSkjult == true) {
-        document.querySelector("#menuknap").textContent = "☰";
-    } else {
-        document.querySelector("#menuknap").textContent = "x";
-    }
+    document.querySelector(".burger").classList.toggle('toggle');
+
 }
