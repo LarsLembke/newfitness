@@ -63,10 +63,11 @@ button {
     cursor: pointer;
     margin: 0vw 0vw 3vw 0vw;
     border-bottom: 1px;
+    position: relative;
 }
 
 #tider_mandag,
-#tider_tirdag,
+#tider_tirsdag,
 #tider_onsdag,
 #tider_torsdag,
 #tider_fredag,
@@ -79,7 +80,7 @@ button {
 }
 
 #tider_mandag p,
-#tider_tirdag p,
+#tider_tirsdag p,
 #tider_onsdag p,
 #tider_torsdag p,
 #tider_fredag p,
@@ -114,10 +115,9 @@ button {
 .hidden {
     opacity: 0;
     transform: scaleY(0);
+    position: fixed;
 }
 
-.show {
-    list-style-type: none;
-    transition: transform 0.3s;
-    transform-origin: top;
+.shown {
+    position: relative
 }
