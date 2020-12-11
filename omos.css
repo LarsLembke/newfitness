@@ -15,6 +15,27 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+#komigang {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#komigang_img {
+    position: relative;
+    z-index: -1;
+    left: 0;
+}
+
+#tilmeld {
+    background-color: #F28705;
+    color: white;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
 
     #omos img {
@@ -33,11 +54,13 @@ p {
 
     h1 {
         font-size: 4rem;
+        padding-bottom: 2px;
     }
 
     p {
         padding-left: 5px;
         padding-right: 5px;
+        margin: 5px;
     }
 
     #omnf video {
@@ -95,6 +118,12 @@ p {
         text-align: center;
     }
 
+    .box {
+        width: 1200px;
+        height: 400px;
+        background-color: beige;
+    }
+
     #omnf,
     #hvemnf {
         margin: 155px;
@@ -102,35 +131,28 @@ p {
 
     #omnf .col {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1.6fr 29fr 30fr;
     }
 
     #omnf p {
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 3;
     }
 
     #omnf video {
         position: absolute;
         left: 55vw;
-        top: 63vw;
+        top: 65vw;
     }
 
     #hvemnf .col {
+        text-align: center;
+    }
+
+    #galleri {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1.25fr 1fr;
-    }
-
-    #hvemnf h2,
-    p {
-        grid-column-start: 4;
-        grid-column-end: 6;
-    }
-
-    #hvemnf img {
-        width: 35vw;
-        height: 20vw;
-        position: absolute;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
     }
 
 }
