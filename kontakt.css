@@ -12,6 +12,7 @@ p {
     grid-column-start: 2;
 }
 
+<<<<<<< HEAD
 label,
 input,
 button {
@@ -68,4 +69,97 @@ form {
 
 .medlem label {
     font-size: 1.5rem;
+=======
+
+@media only screen and (max-width: 600px) {
+
+    label,
+    button {
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    label,
+    input,
+    button {
+        display: block;
+        margin: 3px;
+    }
+
+    input {
+        font-family: 'Roboto', sans-serif;
+        border: white;
+        height: 8vw;
+    }
+
+    button {
+        background-color: #f28705;
+        width: 44.5vw;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    label,
+    input,
+    button {
+        display: block;
+        margin: 3px;
+    }
+
+    label,
+    button {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2rem;
+    }
+
+    input {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+
+    button {
+        background-color: #f28705;
+        width: 22.2vw;
+    }
+
+    .col {
+        display: flex;
+    }
+
+    .felt {
+        position: absolute;
+        left: 12vw;
+        padding-top: 3px;
+    }
+
+    input {
+        height: 2vw;
+        border: white;
+    }
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    }
+
+    form {
+        position: absolute;
+        left: 55vw;
+        padding-top: 18px;
+    }
+
+    .medlem {
+        display: flex;
+    }
+
+    .medlem label {
+        font-size: 1.5rem;
+    }
+>>>>>>> origin/master
 }
