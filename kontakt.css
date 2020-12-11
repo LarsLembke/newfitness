@@ -1,0 +1,71 @@
+body {
+    background: #ececec;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    grid-column-start: 2
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    grid-column-start: 2;
+}
+
+label,
+input,
+button {
+    display: block;
+    margin: 3px;
+}
+
+label,
+button {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #f28705;
+    width: 22.2vw;
+}
+
+.col {
+    display: flex;
+}
+
+.felt {
+    position: absolute;
+    left: 12vw;
+    padding-top: 3px;
+}
+
+input {
+    height: 2vw;
+    border: white;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+}
+
+form {
+    position: absolute;
+    left: 55vw;
+    padding-top: 18px;
+}
+
+.medlem {
+    display: flex;
+}
+
+.medlem label {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliv medlem</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="kontakt.css">
+    <link rel="html" href="tak.html">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="menuknap"> ☰ </div>
+            <ul id="menu" class="hidden">
+                <li> <a href="index.html"> Forside</a></li>
+                <li> <a href="holdplan.html"> Holdplan</a></li>
+                <li> <a href="omos.html"> Om os</a></li>
+                <li> <a href="kontakt.html"> Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="grid">
+            <h1>Meld dig ind i New Fitness idag!</h1>
+            <p>Send os en mail med dine oplysninger ved at udfylde formularen. <br> Vi glæder os til at se dig!</p>
+            <form action="tak.html" name="tilmeld" netlify>
+
+                <div class="col">
+                    <label for="full-name">Fulde navn</label>
+                    <div class="felt">
+                        <input id="full-name" placeholder="Fulde navn" name="fname" type="text" required>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <label for="adress">Adresse</label>
+                    <div class="felt">
+                        <input id="adress" placeholder="Adresse" name="adress" type="text" required>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <label for="zipcode">Postnr.</label>
+                    <div class="felt">
+                        <input id="zipcode" placeholder="Postnr." name="zipcode" type="number" required>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <label for="city">By</label>
+                    <div class="felt">
+                        <input id="city" placeholder="By" name="city" type="text" required>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <label for="email">E-mail</label>
+                    <div class="felt">
+                        <input id="email" placeholder="E-mail" name="email" type="email" required>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <label for="number">Telefonnummer</label>
+                    <div class="felt">
+                        <input id="number" placeholder="Telefonnummer" name="tnumber" type="tel" required>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="medlem">
+                        <input id="memberr" type="radio" name="mship">
+                        <label for="memberr">Almindeligt medlemskab - pr. mdr. 269 kr.</label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="medlem">
+                        <input id="members" type="radio" name="mship">
+                        <label for="members">Medlemskab +60 år eller førtidspensionist - pr. mdr. 249 kr.</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="medlem">
+                        <input id="memberu" type="radio" name="mship">
+                        <label for="memberu">Medlemskab under 18 eller studerende pr. mdr. 249 kr.</label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="medlem">
+                        <input id="memberuu" type="radio" name="mship">
+                        <label for="memberuu">Medlemskab under 15 - pr. mdr. 199 kr.</label>
+                    </div>
+                </div>
+
+                <button>Send</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
