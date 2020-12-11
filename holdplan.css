@@ -105,3 +105,19 @@ button {
     width: 6vw;
     margin: 3.5vw;
 }
+
+.entid {
+    transform-origin: center;
+    transform: translateY(-20vw);
+}
+
+.hidden {
+    opacity: 0;
+    transform: scaleY(0);
+}
+
+.show {
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top;
+}
