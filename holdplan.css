@@ -3,8 +3,13 @@
     margin: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 img {
-    width: 100vw;
+    width: 100%;
     vertical-align: middle;
 }
 
@@ -92,6 +97,20 @@ button {
 }
 
 
+#dd1,
+#dd2,
+#dd3,
+#dd4,
+#dd5,
+#dd6,
+#dd7 {
+    background-color: #bcbcbc;
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+}
+
+
 #dropdown1,
 #dropdown2,
 #dropdown3,
@@ -103,7 +122,6 @@ button {
     background-size: cover;
     height: 3.3vw;
     width: 6vw;
-    margin: 3.5vw;
 }
 
 .entid {
@@ -144,7 +162,7 @@ button {
     h3 {
         font-size: 2rem;
         margin: 0;
-        padding: 1vw 0 0 0;
+        padding: 0.8vw 0 0 0;
     }
 
     #dropdown1,
