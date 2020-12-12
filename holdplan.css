@@ -70,6 +70,12 @@ button {
     position: relative;
 }
 
+
+button:focus {
+    outline: 0;
+}
+
+
 #tider_mandag,
 #tider_tirsdag,
 #tider_onsdag,
