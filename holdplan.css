@@ -1,4 +1,3 @@
-/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -127,6 +126,10 @@ button {
 }
 
 @media (min-width: 650px) {
+    main {
+        margin-bottom: 3vw;
+    }
+
     h1 {
 
         position: absolute;
