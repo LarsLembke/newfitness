@@ -48,9 +48,11 @@ function dropDownMenu1() {
     if (hidden == true) {
         tiderMandag.classList.remove("hidden");
         tiderMandag.classList.add("shown");
+        this.classList.add("upsidedown");
     } else {
         tiderMandag.classList.add("hidden");
         tiderMandag.classList.remove("shown");
+        this.classList.remove("upsidedown");
     }
 }
 
@@ -62,9 +64,11 @@ function dropDownMenu2() {
     if (hidden == true) {
         tiderTirsdag.classList.remove("hidden");
         tiderTirsdag.classList.add("shown");
+        this.classList.add("upsidedown");
     } else {
         tiderTirsdag.classList.add("hidden");
         tiderTirsdag.classList.remove("shown");
+        this.classList.remove("upsidedown");
     }
 }
 
@@ -76,9 +80,11 @@ function dropDownMenu3() {
     if (hidden == true) {
         tiderOnsdag.classList.remove("hidden");
         tiderOnsdag.classList.add("shown");
+        this.classList.add("upsidedown");
     } else {
         tiderOnsdag.classList.add("hidden");
         tiderOnsdag.classList.remove("shown");
+        this.classList.remove("upsidedown");
     }
 }
 
@@ -90,9 +96,11 @@ function dropDownMenu4() {
     if (hidden == true) {
         tiderTorsdag.classList.remove("hidden");
         tiderTorsdag.classList.add("shown");
+        this.classList.add("upsidedown");
     } else {
         tiderTorsdag.classList.add("hidden");
         tiderTorsdag.classList.remove("shown");
+        this.classList.remove("upsidedown");
     }
 }
 
@@ -104,9 +112,11 @@ function dropDownMenu5() {
     if (hidden == true) {
         tiderFredag.classList.remove("hidden");
         tiderFredag.classList.add("shown");
+        this.classList.add("upsidedown");
     } else {
         tiderFredag.classList.add("hidden");
         tiderFredag.classList.remove("shown");
+        this.classList.remove("upsidedown");
     }
 }
 
@@ -118,9 +128,11 @@ function dropDownMenu6() {
     if (hidden == true) {
         tiderLordag.classList.remove("hidden");
         tiderLordag.classList.add("shown");
+        this.classList.add("upsidedown");
     } else {
         tiderLordag.classList.add("hidden");
         tiderLordag.classList.remove("shown");
+        this.classList.remove("upsidedown");
     }
 }
 
@@ -132,8 +144,10 @@ function dropDownMenu7() {
     if (hidden == true) {
         tiderSondag.classList.remove("hidden");
         tiderSondag.classList.add("shown");
+        this.classList.add("upsidedown");
     } else {
         tiderSondag.classList.add("hidden");
         tiderSondag.classList.remove("shown");
+        this.classList.remove("upsidedown");
     }
 }

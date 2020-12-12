@@ -121,3 +121,78 @@ button {
 .shown {
     position: relative
 }
+
+.upsidedown {
+    transform: rotate(180deg);
+}
+
+@media (min-width: 650px) {
+    h1 {
+
+        position: absolute;
+        transform: translate(33vw);
+        font-size: 10rem;
+    }
+
+    #holdplan {
+        margin: 0 20vw;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin: 0;
+        padding: 1vw 0 0 0;
+    }
+
+    #dropdown1,
+    #dropdown2,
+    #dropdown3,
+    #dropdown4,
+    #dropdown5,
+    #dropdown6,
+    #dropdown7 {
+        background-image: url(images/dropdown_ui.svg);
+        background-size: cover;
+        height: 1.1vw;
+        width: 2vw;
+        margin: 1.5vw;
+    }
+
+    .day {
+        display: grid;
+        grid-template-columns: 15fr 1fr;
+        background-color: #bcbcbc;
+        margin-top: 1vw;
+        padding-left: 2vw;
+        font-size: 1.5rem;
+
+    }
+
+    button {
+        background-color: #F28705;
+        color: white;
+        border: none;
+        padding: 5px 15px 5px 15px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2vw;
+        cursor: pointer;
+        margin-bottom: 0.5vw;
+        border-bottom: 1px solid #939191;
+        position: relative;
+    }
+
+    #tider_mandag p,
+    #tider_tirsdag p,
+    #tider_onsdag p,
+    #tider_torsdag p,
+    #tider_fredag p,
+    #tider_lordag p,
+    #tider_sondag p {
+        border-bottom: 1px solid #939191;
+        margin: 0 0 0.5vw 0;
+        padding-left: 2vw;
+
+    }
+
+
+}
