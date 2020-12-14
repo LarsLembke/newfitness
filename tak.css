@@ -2,6 +2,10 @@ body {
     background: #ececec;
 }
 
+img {
+    width: 100%;
+}
+
 h1 {
     font-family: 'Bebas Neue', cursive;
     margin-top: 150px;
