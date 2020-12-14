@@ -36,17 +36,12 @@ p {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 @media only screen and (max-width: 600px) {
-
-    #omos img {
-        position: absolute;
-        top: 55vw;
-        left: 0vw;
-    }
-
-    #omos p {
-        padding-top: 170px;
-    }
 
     section {
         text-align: center;
@@ -98,7 +93,6 @@ p {
     #omos img {
         width: 100%;
         height: 30vw;
-        padding-top: 160px;
     }
 
     * {
@@ -118,18 +112,12 @@ p {
         text-align: center;
     }
 
-    .box {
-        width: 1200px;
-        height: 400px;
-        background-color: beige;
-    }
-
     #omnf,
     #hvemnf {
-        margin: 155px;
+        margin: 40px;
     }
 
-    #omnf .col {
+    /* #omnf .col {
         display: grid;
         grid-template-columns: 1.6fr 29fr 30fr;
     }
@@ -137,12 +125,10 @@ p {
     #omnf p {
         grid-column-start: 2;
         grid-column-end: 3;
-    }
+    } */
 
-    #omnf video {
-        position: absolute;
-        left: 55vw;
-        top: 65vw;
+    #omnf {
+        text-align: center;
     }
 
     #hvemnf .col {

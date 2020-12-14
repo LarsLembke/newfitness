@@ -7,12 +7,34 @@
     <title>Om os</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="omos.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
 </head>
 
 <body>
     <header>
+        <nav>
+            <div class="logo">
+                <h4>logo</h4>
+            </div>
+            <ul class="nav-links">
+                <li> <a href="index.html"> Forside</a></li>
+                <li> <a href="holdplan.html"> Holdplan</a></li>
+                <li> <a href="omos.html"> Om os</a></li>
+                <li> <a href="kontakt.html"> Kontakt</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <!--
         <nav>
             <div id="menuknap"> ☰ </div>
             <ul id="menu" class="hidden">
@@ -22,7 +44,7 @@
                 <li> <a href="kontakt.html"> Kontakt</a></li>
             </ul>
         </nav>
-        <img src="images/logo_2.svg" alt="Logo">
+-->
     </header>
     <main>
         <section id="omos">
@@ -38,21 +60,17 @@
             </div>
         </section>
         <section id="omnf">
-            <div class="box">
-                <h2>Nogle få ord om New Fitness</h2>
-                <div class="col">
-                    <p>New Fitness er et træningscenter hvor du som medlem kommer til at føle dig hjemme. <br>
-                        Alle i New Fitness kommer til at arbejde hårdt for at DU som medlem får hvad du ønsker. <br>
-                        Der er kompetente instruktører, som altid står klar til at hjælpe og støtte dig, så du kan opnå de resultater, som du ønsker dig. <br> <br>
-                        Som medlem i New Fitness får du adgang til et bredt udvalg af træningsmaskiner, frivægte og cardiomaskiner. <br>
-                        Derudover har vi også et bredt udvalg af hold som man kan melde sig på. <br>
-                        Du kan se mere om vores hold her.
-                    </p>
-                    <video width="450" height="320" controls>
-                        <source src="http://newfitness.dk/upload/2015/11/NewFitness-Video-Final-1080p.mp4?_=1" type="video/mp4">
-                    </video>
-                </div>
-            </div>
+            <h2>Nogle få ord om New Fitness</h2>
+            <p>New Fitness er et træningscenter hvor du som medlem kommer til at føle dig hjemme. <br>
+                Alle i New Fitness kommer til at arbejde hårdt for at DU som medlem får hvad du ønsker. <br>
+                Der er kompetente instruktører, som altid står klar til at hjælpe og støtte dig, så du kan opnå de resultater, som du ønsker dig. <br> <br>
+                Som medlem i New Fitness får du adgang til et bredt udvalg af træningsmaskiner, frivægte og cardiomaskiner. <br>
+                Derudover har vi også et bredt udvalg af hold som man kan melde sig på. <br>
+                Du kan se mere om vores hold her.
+            </p>
+            <video width="450" height="320" controls>
+                <source src="http://newfitness.dk/upload/2015/11/NewFitness-Video-Final-1080p.mp4?_=1" type="video/mp4">
+            </video>
         </section>
         <section id="hvemnf">
             <div class="col">
@@ -79,20 +97,56 @@
                     <img src="images/komigang.svg" alt="kom igang" id="komigang_img">
                 </div>
                 <div>
-                    <button id="tilmeld"> Tilmeld</button>
+                    <button id="tilmeld"><a href="kontakt.html"> Tilmeld</a></button>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="images/logo_2.svg" class="footerlogo" alt="logo">
+            <div class="footer-links">
+                <a href="index.html">Forside</a>
+                <a href="holdplan.html">Holdplan</a>
+                <a href="omos.html">Om os</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+            <p class="footer-company">
+                © 2020 New Fitness Alle rettigheder forbeholdes
+            </p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>New Fitness, Kanaltorvet 1,</span> 2620 Albertslund</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>43 62 17 71</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:newfitness@newfitness.dk">newfitness@newfitness.dk</a></p>
+            </div>
+
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span> Kort om os</span>
+                New Fitness tilbyder enhver, uanset størrelse, form, ung eller gammel mulighed for at forbedre den fysiske form, at tabe vægt, at optræne dårlige rygge etc., så du kan have en så god livskvalitet som muligt. Når du kommer ind i New Fitness, vil du mærke forskellen. Du vil blive omgivet af venligt og serviceminded personale og søde medlemmer.
+            </p>
+
+            <div class="footer-social">
+                <a href="https://www.facebook.com/pages/New-Fitness/304017019712573"> <i class="fab fa-facebook-f"></i></a>
+                <a href="#"> <i class="fab fa-twitter"></i></a>
+                <a href="#"> <i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+    </footer>
     <script src="script.js"></script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-</body></html>
-=======
-=======
->>>>>>> origin/master
 </body>
 
 </html>
->>>>>>> origin/master
