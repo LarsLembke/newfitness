@@ -131,6 +131,10 @@ a {
         text-align: center;
     }
 
+    #omnf video {
+        padding-top: 20px;
+    }
+
     #hvemnf .col {
         text-align: center;
     }
