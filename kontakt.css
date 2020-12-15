@@ -15,6 +15,11 @@ p {
 button {
     color: white;
     border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
 }
 
 
