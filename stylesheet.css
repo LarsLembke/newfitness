@@ -75,9 +75,7 @@ nav {
 }
 
 @media screen and (max-width: 650px) {
-    body {
-        overflow-x: hidden;
-    }
+    body {}
 
     .logo {
         height: 12vw;
@@ -89,15 +87,16 @@ nav {
         height: 12vh;
     }
 
+    html {
+        overflow-x: hidden;
+    }
+
     header {
         position: sticky;
         top: 0;
         overflow-x: hidden;
     }
 
-    html {
-        overflow-x: hidden;
-    }
 
 
     .nav-links {
