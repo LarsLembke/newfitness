@@ -139,4 +139,8 @@ a {
         grid-gap: 10px;
     }
 
+    #komigang img {
+        width: 30vw;
+    }
+
 }
