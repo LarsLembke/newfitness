@@ -1,9 +1,25 @@
+/* Reset */
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+/* Globale styles */
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vw;
+    padding: 2vw;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    padding: 2vw;
+}
+
+/* Navigationsbar */
 nav {
     display: flex;
     justify-content: space-around;
@@ -108,6 +124,8 @@ nav {
     transform: translateX(0%);
 }
 
+/* Burger menu til X */
+
 .toggle .line1 {
     transform: rotate(-45deg) translate(-7px, 7px);
 }
@@ -120,19 +138,7 @@ nav {
     transform: rotate(45deg) translate(-7px, -7px);
 }
 
-
-h2 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 7vw;
-    padding: 2vw;
-}
-
-h3 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 5vw;
-    padding: 2vw;
-}
-
+/* Footer */
 .footer {
     width: 100%;
     background: #F28705;
@@ -279,7 +285,4 @@ h3 {
         margin-bottom: 40px;
         text-align: center;
     }
-
-
-
 }
