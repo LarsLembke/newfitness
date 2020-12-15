@@ -69,10 +69,6 @@ nav {
         margin-top: 1vw
     }
 
-    nav {
-        position: fixed;
-        width: 100%;
-    }
 
     .nav-links {
         position: absolute;
