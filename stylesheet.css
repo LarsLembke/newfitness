@@ -110,6 +110,12 @@ nav {
         align-items: center;
         width: 100%;
         transform: translateX(100%);
+    }
+
+    .nav-links a:hover {
+        color: #F28705;
+        background-color: black;
+        background-size: 100vw;
 
     }
 
@@ -289,7 +295,7 @@ nav {
 }
 
 .footer .footer-social a:hover {
-    background: #d6d4d4;
+    background: #ececec;
 }
 
 @media (max-width: 880px) {
