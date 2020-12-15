@@ -68,6 +68,10 @@ img {
     form {
         margin: 3px;
     }
+
+    h1 {
+        padding-top: 130px;
+    }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 1050px) and (orientation: landscape) {
