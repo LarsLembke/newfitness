@@ -49,6 +49,10 @@ nav {
     font-size: 20px;
 }
 
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
 .burger {
     display: none;
     cursor: pointer;
@@ -189,6 +193,11 @@ nav {
     font-size: 20px;
 }
 
+.footer .footer-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .footer .footer-company {
     color: #222;
     font-size: 14px;
@@ -277,6 +286,10 @@ nav {
     text-align: center;
     margin-right: 3px;
     margin-bottom: 5px;
+}
+
+.footer .footer-social a:hover {
+    background: #d6d4d4;
 }
 
 @media (max-width: 880px) {
