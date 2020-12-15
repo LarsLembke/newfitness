@@ -154,13 +154,13 @@ button:focus {
         margin-bottom: 3vw;
     }
 
-    h1 {
+    /*   h1 {
 
         position: absolute;
         transform-origin: center;
         transform: translate(50vw);
         font-size: 10rem;
-    }
+    }*/
 
     #holdplan {
         margin: 0 20vw;
