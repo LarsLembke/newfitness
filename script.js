@@ -12,9 +12,9 @@ function toggleMenu() {
     const nav = document.querySelector('.nav-links');
 
     nav.classList.toggle('nav-active');
-
     document.querySelector(".burger").classList.toggle('toggle');
     document.querySelector("body").classList.toggle('overflow');
+
 
 
 }
