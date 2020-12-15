@@ -75,7 +75,9 @@ nav {
 }
 
 @media screen and (max-width: 650px) {
-    body {}
+    body {
+        overflow-x: hidden;
+    }
 
     .logo {
         height: 12vw;
@@ -87,21 +89,15 @@ nav {
         height: 12vh;
     }
 
-    html {
-        overflow-x: hidden;
-    }
-
     header {
         position: sticky;
         top: 0;
         overflow-x: hidden;
     }
 
-
-
     .nav-links {
         position: fixed;
-        right: 0px;
+        right: 0;
         height: 90vh;
         top: 10vh;
         background-color: #F28705;
@@ -110,7 +106,7 @@ nav {
         align-items: center;
         width: 100%;
         transform: translateX(100%);
-        transition: 0.2s;
+
     }
 
     .nav-links a {
@@ -119,7 +115,6 @@ nav {
 
     .nav-links li {
         opacity: 1;
-
     }
 
     .burger {
@@ -129,6 +124,10 @@ nav {
 
 .nav-active {
     transform: translateX(0%);
+}
+
+.overflow {
+    overflow: hidden;
 }
 
 /* Burger menu til X */
@@ -144,6 +143,8 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-7px, -7px);
 }
+
+
 
 /* Footer */
 .footer {
