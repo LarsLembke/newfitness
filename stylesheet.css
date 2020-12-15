@@ -85,16 +85,23 @@ nav {
     }
 
     nav {
-        position: absolute;
-        left: 0;
-        top: 0;
         width: 100%;
         height: 12vh;
     }
 
+    header {
+        position: sticky;
+        top: 0;
+        overflow-x: hidden;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
 
     .nav-links {
-        position: absolute;
+        position: fixed;
         right: 0px;
         height: 90vh;
         top: 10vh;
@@ -104,6 +111,7 @@ nav {
         align-items: center;
         width: 100%;
         transform: translateX(100%);
+        transition: 0.2s;
     }
 
     .nav-links a {
