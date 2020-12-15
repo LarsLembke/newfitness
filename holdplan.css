@@ -157,7 +157,8 @@ button:focus {
     h1 {
 
         position: absolute;
-        transform: translate(33vw);
+        transform-origin: center;
+        transform: translate(50vw);
         font-size: 10rem;
     }
 
