@@ -81,7 +81,10 @@ nav {
 @media screen and (max-width: 650px) {
     body {
         overflow-x: hidden;
+
     }
+
+    html {}
 
     .logo {
         height: 12vw;
@@ -91,11 +94,11 @@ nav {
     nav {
         width: 100%;
         height: 12vh;
+
     }
 
     header {
-        position: sticky;
-        top: 0;
+        position: relative;
         overflow-x: hidden;
     }
 
@@ -110,13 +113,6 @@ nav {
         align-items: center;
         width: 100%;
         transform: translateX(100%);
-    }
-
-    .nav-links a:hover {
-        color: #F28705;
-        background-color: black;
-        background-size: 100vw;
-
     }
 
     .nav-links a {
