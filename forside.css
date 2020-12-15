@@ -9,6 +9,11 @@ img {
     vertical-align: middle;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Globale styles */
 body {
     background: #ececec;
@@ -17,6 +22,7 @@ body {
 #forsidevideo {
     width: 100%;
     height: auto;
+    pointer-events: none;
 }
 
 #tilmeldnu {
@@ -110,4 +116,72 @@ body {
     cursor: pointer;
 }
 
-hej
+@media screen and (min-width: 1024px) {
+
+    #tilmeldnu {
+        background-color: #F28705;
+        color: white;
+        border: none;
+        padding: 10px 20px 10px 20px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2vw;
+        cursor: pointer;
+        position: absolute;
+        top: 45vw;
+        left: 5vw;
+    }
+
+    h2 {
+        font-size: 5rem;
+        margin-top: 5vw;
+        text-align: center;
+    }
+
+    #corona img {
+        width: 70vw;
+    }
+
+    #corona_section {
+        background-color: #dbdada;
+        padding: 5px;
+        width: 70vw;
+        margin-left: 15vw
+    }
+
+    #readmore {
+        margin-left: 50vw;
+        margin-bottom: 2vw;
+    }
+
+    #diasshow {
+        width: 70vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #mereomos {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15.5vw;
+        margin-top: 5vw;
+
+    }
+
+    #mereomos_section {
+        background-color: #dbdada;
+        width: 35vw;
+
+    }
+
+    #mereomos img {
+        width: 35vw;
+
+    }
+
+    #komigang_img {
+        width: 30vw;
+    }
+
+    #tilmeld {
+        margin-bottom: 5vw;
+    }

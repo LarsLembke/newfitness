@@ -19,7 +19,7 @@
     <header>
         <nav>
             <div class="logo">
-                <h4>logo</h4>
+                <a href="index.html"><img src="images/logo_2.svg" alt="logo"> </a>
             </div>
             <ul class="nav-links">
                 <li> <a href="index.html"> Forside</a></li>
@@ -39,10 +39,10 @@
 
             <div>
                 <video id="forsidevideo" autoplay muted loop>
-                    <source src="forsidevideo.mp4" type="video/mp4">
+                    <source src="http://hanert.dk/kea/05_content/newfitness/forsidevideo/splashvideo.mp4" type="video/mp4">
                 </video>
-                <button id="tilmeldnu"> Tilmeld nu
-                </button>
+                <button id="tilmeldnu"> <a href="kontakt.html">Tilmeld nu
+                    </a></button>
             </div>
 
         </section>
@@ -53,18 +53,21 @@
                     <!--Billede hentet fra freepik.com-->
                     <img src="images/coronasection.jpg" alt="corona">
                 </div>
-                <div>
+                <div id="corona_section">
                     <h3> Nye tiltag og retningslinjer</h3>
                     <p id="coronatekst"> Her kan du læse mere om vores tiltag og myndighedernes retningslinjer for området. Siden bliver løbende opdateret. <br> <br>
 
                         Læs mere om, hvordan vi sammen kan skabe gode træningsvaner under trygge rammer. Husk at spritte af, holde afstand og vise hensyn. <br> <br>
 
                         Find de seneste opdateringer og se hvilke forholdsregler der er taget, så du sikkert og trygt kan træne hos os.</p>
+
+                    <button id="readmore"> Læs mere</button>
                 </div>
-                <button id="readmore"> Læs mere</button>
+
             </div>
         </section>
         <section id="diasshow">
+
             <div>
                 <h2> Vi gør din træning enklere</h2>
                 <div class="image-container">
@@ -83,12 +86,13 @@
                 </div>
             </div>
         </section>
-        <section id="mereomos">
-            <div>
-                <h2> Mere om os</h2>
-                <p id=mereomostekst> Klik nedenfor og læs mere om hvad vi står for</p>
-
-                <img src="images/forsidemereomos.jpg" alt="mere om os">
+        <section>
+            <div id="mereomos">
+                <div id="mereomos_section">
+                    <h2> Mere om os</h2>
+                    <p id=mereomostekst> Klik på billedet og læs mere om hvad vi står for</p>
+                </div>
+                <a href="omos.html"> <img src="images/forsidemereomos.jpg" alt="mere om os"> </a>
             </div>
         </section>
         <section id="komigang">
@@ -100,7 +104,7 @@
                     <img src="images/komigang.svg" alt="kom igang" id="komigang_img">
                 </div>
                 <div>
-                    <button id="tilmeld"> Tilmeld</button>
+                    <button id="tilmeld"> <a href="kontakt.html">Tilmeld </a></button>
                 </div>
             </div>
         </section>
@@ -150,4 +154,6 @@
 
     </footer>
     <script src="script.js"></script>
-</body></html>
+</body>
+
+</html>
