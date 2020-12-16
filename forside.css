@@ -65,7 +65,7 @@ body {
     cursor: pointer;
 }
 
-#readmore:hover {
+#readmore a:hover {
     color: black;
 }
 
