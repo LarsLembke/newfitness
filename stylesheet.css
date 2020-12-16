@@ -27,7 +27,7 @@ nav {
     min-height: 8vh;
     background-color: #F28705;
     font-family: 'Bebas Neue', cursive;
-    box-shadow: 0px 2px 2px black;
+
 }
 
 .logo {
@@ -76,10 +76,6 @@ nav {
     .nav-links {
         width: 50%;
     }
-
-    header {
-        box-shadow: 0px 2px 2px black;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -111,8 +107,6 @@ nav {
         z-index: 1;
         top: 0;
         overflow-x: hidden;
-        box-shadow: 0px 2px 2px black;
-
     }
 
     .nav-links {
