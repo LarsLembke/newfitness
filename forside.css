@@ -6,6 +6,7 @@
 
 img {
     width: 100%;
+    height: auto;
     vertical-align: middle;
 }
 
@@ -65,7 +66,7 @@ body {
     cursor: pointer;
 }
 
-#readmore:hover {
+#readmore a:hover {
     color: black;
 }
 
